@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D32D25184A00389601D4BC1F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A9D2FA52D957AA2C3F1E7B /* libPods.a */; };
+		E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */; };
+		E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */; };
+		E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */; };
 		E4F9EBAC1CD7325C00C747EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBAB1CD7325C00C747EF /* main.m */; };
 		E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F9EBB61CD7325C00C747EF /* Assets.xcassets */; };
 		E4F9EBC51CD7325C00C747EF /* starTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBC41CD7325C00C747EF /* starTests.m */; };
@@ -38,6 +41,15 @@
 /* Begin PBXFileReference section */
 		63A9FD431C828FDA7B346BF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A1A9D2FA52D957AA2C3F1E7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44C64901CDB96C300E5A3A1 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		E44C64921CDB96C300E5A3A1 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		E44C64941CDB96C300E5A3A1 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		E44C64991CDB999D00E5A3A1 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAssert.h; sourceTree = "<group>"; };
 		E4F9EBA71CD7325C00C747EF /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F9EBAB1CD7325C00C747EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F9EBB61CD7325C00C747EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +112,19 @@
 				A1A9D2FA52D957AA2C3F1E7B /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44C648F1CDB96C300E5A3A1 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E44C64901CDB96C300E5A3A1 /* RDVTabBar.h */,
+				E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */,
+				E44C64921CDB96C300E5A3A1 /* RDVTabBarController.h */,
+				E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */,
+				E44C64941CDB96C300E5A3A1 /* RDVTabBarItem.h */,
+				E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
 		E4F9EB9E1CD7325C00C747EF = {
@@ -240,6 +265,9 @@
 		E4F9EBE61CD734D300C747EF /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				E44C64991CDB999D00E5A3A1 /* macro.h */,
+				E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */,
+				E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
@@ -277,8 +305,9 @@
 		E4F9EBEB1CD7351900C747EF /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E44C648F1CDB96C300E5A3A1 /* RDVTabBarController */,
 			);
-			name = Lib;
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		E4F9EBEC1CD7354700C747EF /* Model */ = {
@@ -484,7 +513,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F9EBAC1CD7325C00C747EF /* main.m in Sources */,
+				E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */,
 				E4F9EBF11CD7358A00C747EF /* BaseViewController.m in Sources */,
+				E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */,
+				E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */,
 				E4F9EBF71CD735FC00C747EF /* AppDelegateHelper.m in Sources */,
 				E4F9EBFA1CD7363500C747EF /* HomeViewController.m in Sources */,
 				E4F9EBF41CD735B000C747EF /* AppDelegate.m in Sources */,
@@ -610,6 +642,8 @@
 			baseConfigurationReference = F750750DC0A9515474AD1FDF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsmode.star;
@@ -622,6 +656,8 @@
 			baseConfigurationReference = 63A9FD431C828FDA7B346BF4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsmode.star;

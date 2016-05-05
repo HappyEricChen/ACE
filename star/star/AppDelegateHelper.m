@@ -9,6 +9,10 @@
 #import "AppDelegateHelper.h"
 #import <JZNavigationExtension.h>
 #import "HomeViewController.h"
+#import "RDVTabBarController.h"
+#import "macro.h"
+#import "ImageAssert.h"
+#import "RDVTabBarItem.h"
 
 @implementation AppDelegateHelper
 #pragma mark Class method
@@ -41,5 +45,61 @@
         _homeViewController = [[HomeViewController alloc]init];
     }
     return _homeViewController;
+}
+
+-(UIViewController *)secondViewController
+{
+    if (!_secondViewController)
+    {
+        _secondViewController = [[HomeViewController alloc]init];
+    }
+    return _secondViewController;
+}
+-(UIViewController *)thirdViewController
+{
+    if (!_thirdViewController)
+    {
+        _thirdViewController = [[HomeViewController alloc]init];
+    }
+    return _thirdViewController;
+}
+-(UIViewController *)fourViewController
+{
+    if (!_fourViewController)
+    {
+        _fourViewController = [[HomeViewController alloc]init];
+    }
+    return _fourViewController;
+}
+
+-(UIViewController *)mainTabBarController
+{
+    if (!_mainTabBarController)
+    {
+        RDVTabBarController* rdvTabBarController = [[RDVTabBarController alloc]init];
+        [rdvTabBarController setViewControllers:@[self.homeViewController,
+                                                  self.secondViewController,
+                                                  self.thirdViewController,
+                                                  self.fourViewController]];
+        
+        NSArray* selectedImages = @[ImageNamed(ig_home_full),
+                                    ImageNamed(ig_discover_full),
+                                    ImageNamed(ig_shop_activity_full),
+                                    ImageNamed(ig_me_full)];
+        NSArray* unselectedImages = @[ImageNamed(ig_home_line),
+                                      ImageNamed(ig_discover_line),
+                                      ImageNamed(ig_shop_activity_line),
+                                      ImageNamed(ig_me_line)];
+        NSInteger index = 0;
+        for (RDVTabBarItem* item in [[rdvTabBarController tabBar]items])
+        {
+            [item setBackgroundColor:UIColorFromRGB(0x000000)];
+            [item setFinishedSelectedImage:selectedImages[index]
+               withFinishedUnselectedImage:unselectedImages[index]];
+            index++;
+        }
+        _mainTabBarController = rdvTabBarController;
+    }
+    return _mainTabBarController;
 }
 @end
