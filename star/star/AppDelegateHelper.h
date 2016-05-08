@@ -21,12 +21,15 @@
  * return UINavigationController instance
  */
 @property (strong, nonatomic) UINavigationController* mainNavigationController;
+@property (strong, nonatomic) UINavigationController* topicNavigationController;
+
 /**
  * return RDVTabBarController instance
  */
-@property (strong, nonatomic) UIViewController* mainTabBarController;
+@property (strong, nonatomic) UITabBarController* mainTabBarController;
 /**
  * return homeViewController instance
  */
 @property (strong, nonatomic) UIViewController* homeViewController;
+@property (strong, nonatomic) UIViewController* topicViewController;
 @end
