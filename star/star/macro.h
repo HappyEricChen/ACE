@@ -1,13 +1,13 @@
 //
-//  macro.h
+//  Macro.h
 //  star
 //
 //  Created by Eric Chen on 16/5/5.
 //  Copyright © 2016年 Eric. All rights reserved.
 //
 
-#ifndef macro_h
-#define macro_h
+#ifndef Macro_h
+#define Macro_h
 
 /**
  * UIImage object

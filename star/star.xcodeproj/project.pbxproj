@@ -13,6 +13,7 @@
 		E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */; };
 		E4BB99E11CE0492D00C8D787 /* allQQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99E01CE0492D00C8D787 /* allQQ.plist */; };
 		E4BB99E41CE05E3B00C8D787 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */; };
+		E4BB99E91CE06B9600C8D787 /* CustomNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */; };
 		E4F9EBAC1CD7325C00C747EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBAB1CD7325C00C747EF /* main.m */; };
 		E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F9EBB61CD7325C00C747EF /* Assets.xcassets */; };
 		E4F9EBC51CD7325C00C747EF /* starTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBC41CD7325C00C747EF /* starTests.m */; };
@@ -49,12 +50,14 @@
 		E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
 		E44C64941CDB96C300E5A3A1 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
 		E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
-		E44C64991CDB999D00E5A3A1 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		E44C64991CDB999D00E5A3A1 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAssert.h; sourceTree = "<group>"; };
 		E4BB99E01CE0492D00C8D787 /* allQQ.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = allQQ.plist; sourceTree = "<group>"; };
 		E4BB99E21CE05E3B00C8D787 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E4BB99E71CE06B9600C8D787 /* CustomNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationView.h; sourceTree = "<group>"; };
+		E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationView.m; sourceTree = "<group>"; };
 		E4F9EBA71CD7325C00C747EF /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F9EBAB1CD7325C00C747EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F9EBB61CD7325C00C747EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +156,24 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E4BB99E51CE06B1700C8D787 /* BaseFile */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99E61CE06B5000C8D787 /* BaseNavigationView */,
+				E4F9EBEA1CD734DA00C747EF /* BaseController */,
+			);
+			name = BaseFile;
+			sourceTree = "<group>";
+		};
+		E4BB99E61CE06B5000C8D787 /* BaseNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99E71CE06B9600C8D787 /* CustomNavigationView.h */,
+				E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */,
+			);
+			name = BaseNavigationView;
 			sourceTree = "<group>";
 		};
 		E4F9EB9E1CD7325C00C747EF = {
@@ -273,7 +294,7 @@
 		E4F9EBE41CD7344C00C747EF /* helper */ = {
 			isa = PBXGroup;
 			children = (
-				E4F9EBEA1CD734DA00C747EF /* BaseController */,
+				E4BB99E51CE06B1700C8D787 /* BaseFile */,
 				E4F9EBE91CD734D800C747EF /* Singleton */,
 				E4F9EBE81CD734D600C747EF /* API */,
 				E4F9EBE71CD734D500C747EF /* DataBase */,
@@ -297,7 +318,7 @@
 		E4F9EBE61CD734D300C747EF /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				E44C64991CDB999D00E5A3A1 /* macro.h */,
+				E44C64991CDB999D00E5A3A1 /* Macro.h */,
 				E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */,
 				E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */,
 			);
@@ -550,6 +571,7 @@
 				E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */,
 				E4F9EBF11CD7358A00C747EF /* BaseViewController.m in Sources */,
 				E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */,
+				E4BB99E91CE06B9600C8D787 /* CustomNavigationView.m in Sources */,
 				E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */,
 				E4F9EBF71CD735FC00C747EF /* AppDelegateHelper.m in Sources */,
 				E4F9EBFA1CD7363500C747EF /* HomeViewController.m in Sources */,
@@ -677,6 +699,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/song/Desktop/ACE/star/star/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -691,6 +714,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/song/Desktop/ACE/star/star/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
