@@ -1,13 +1,16 @@
 PODS:
   - JZNavigationExtension (1.4.6)
+  - SDAutoLayout (1.53)
   - YYModel (1.0.3)
 
 DEPENDENCIES:
   - JZNavigationExtension
+  - SDAutoLayout (~> 1.53)
   - YYModel
 
 SPEC CHECKSUMS:
   JZNavigationExtension: 9a7b041e49e74260db48c7b61417d5deb5f24f8c
+  SDAutoLayout: ea6e2ae9fbb438aa2feb0c4363dba9297e98638a
   YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
 
 COCOAPODS: 0.39.0

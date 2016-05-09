@@ -2,3 +2,4 @@
 
 pod 'JZNavigationExtension'
 pod 'YYModel'
+pod 'SDAutoLayout', '~> 1.53'

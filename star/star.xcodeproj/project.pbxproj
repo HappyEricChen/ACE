@@ -11,6 +11,8 @@
 		E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */; };
 		E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */; };
 		E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */; };
+		E4BB99E11CE0492D00C8D787 /* allQQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99E01CE0492D00C8D787 /* allQQ.plist */; };
+		E4BB99E41CE05E3B00C8D787 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */; };
 		E4F9EBAC1CD7325C00C747EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBAB1CD7325C00C747EF /* main.m */; };
 		E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F9EBB61CD7325C00C747EF /* Assets.xcassets */; };
 		E4F9EBC51CD7325C00C747EF /* starTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBC41CD7325C00C747EF /* starTests.m */; };
@@ -50,6 +52,9 @@
 		E44C64991CDB999D00E5A3A1 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
 		E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAssert.h; sourceTree = "<group>"; };
+		E4BB99E01CE0492D00C8D787 /* allQQ.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = allQQ.plist; sourceTree = "<group>"; };
+		E4BB99E21CE05E3B00C8D787 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E4F9EBA71CD7325C00C747EF /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F9EBAB1CD7325C00C747EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F9EBB61CD7325C00C747EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,6 +132,29 @@
 			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
+		E4BB99DD1CE0483300C8D787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99E21CE05E3B00C8D787 /* SecondViewController.h */,
+				E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E4BB99DE1CE0484000C8D787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E4BB99DF1CE0485000C8D787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E4F9EB9E1CD7325C00C747EF = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +189,7 @@
 		E4F9EBAA1CD7325C00C747EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4BB99E01CE0492D00C8D787 /* allQQ.plist */,
 				E4F9EBBB1CD7325C00C747EF /* Info.plist */,
 				E4F9EBB61CD7325C00C747EF /* Assets.xcassets */,
 				E4F9EBAB1CD7325C00C747EF /* main.m */,
@@ -224,6 +253,9 @@
 		E4F9EBE21CD7342900C747EF /* tab2 */ = {
 			isa = PBXGroup;
 			children = (
+				E4BB99DF1CE0485000C8D787 /* Model */,
+				E4BB99DE1CE0484000C8D787 /* View */,
+				E4BB99DD1CE0483300C8D787 /* Controller */,
 			);
 			name = tab2;
 			sourceTree = "<group>";
@@ -439,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BB99E11CE0492D00C8D787 /* allQQ.plist in Resources */,
 				E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BB99E41CE05E3B00C8D787 /* SecondViewController.m in Sources */,
 				E4F9EBAC1CD7325C00C747EF /* main.m in Sources */,
 				E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */,
 				E4F9EBF11CD7358A00C747EF /* BaseViewController.m in Sources */,
