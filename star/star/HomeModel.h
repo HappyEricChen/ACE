@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface HomeModel : NSObject
--(void)passModel:(HomeModel *)model;
+@property(nonatomic,copy)NSString *rank;
+@property(nonatomic,copy)NSString *name;
+@property(nonatomic,copy)NSString *number;
+@property(nonatomic,copy)NSString *headImage;
+@property(nonatomic,copy)NSString *arrow;
+
+-(HomeModel *)initWithDic:(NSDictionary *)dic ;
+//-(NSDictionary *)passModel:(HomeModel *)model;
 @end

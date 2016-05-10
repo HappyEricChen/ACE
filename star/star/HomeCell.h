@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 @class HomeModel;
 @interface HomeCell : UITableViewCell
-
+@property(nonatomic,retain)HomeModel *model;
+-(void)passModel:(HomeModel *)model;
 @end

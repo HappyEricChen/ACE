@@ -10,4 +10,15 @@
 
 @implementation HomeModel
 
+-(HomeModel *)initWithDic:(NSDictionary *)dic {
+    self=[super init];
+    if (self) {
+        self.rank=[dic objectForKey:@"rank"];
+        self.name=[dic objectForKey:@"name"];
+        self.number=[dic objectForKey:@"number"];
+        self.headImage=[dic objectForKey:@"headImage"];
+        self.arrow=[dic objectForKey:@"arrow"];
+    }
+    return self;
+}
 @end
