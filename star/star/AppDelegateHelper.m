@@ -13,6 +13,7 @@
 #import "macro.h"
 #import "ImageAssert.h"
 #import "RDVTabBarItem.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegateHelper
 #pragma mark Class method
@@ -51,7 +52,7 @@
 {
     if (!_secondViewController)
     {
-        _secondViewController = [[HomeViewController alloc]init];
+        _secondViewController = [[SecondViewController alloc]init];
     }
     return _secondViewController;
 }

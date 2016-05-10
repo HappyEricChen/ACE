@@ -6,3 +6,10 @@
 #define ig_shop_activity_full @"shop_activity_full"
 #define ig_me_line @"me_line"
 #define ig_me_full @"me_full"
+
+
+/**
+ *  second
+ */
+#define ig_second_scroll @"second_scroll"
+#define ig_second_icon @"second_icon"
