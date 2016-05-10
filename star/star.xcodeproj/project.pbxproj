@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D32D25184A00389601D4BC1F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A9D2FA52D957AA2C3F1E7B /* libPods.a */; };
+		E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */; };
+		E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */; };
+		E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */; };
+		E4BB99E11CE0492D00C8D787 /* allQQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99E01CE0492D00C8D787 /* allQQ.plist */; };
+		E4BB99E41CE05E3B00C8D787 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */; };
+		E4BB99E91CE06B9600C8D787 /* CustomNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */; };
+		E4BB99F01CE073E200C8D787 /* BrownTT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99EB1CE073E200C8D787 /* BrownTT-Regular.ttf */; };
+		E4BB99F11CE073E200C8D787 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99EC1CE073E200C8D787 /* ProximaNova-Bold.otf */; };
+		E4BB99F21CE073E200C8D787 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99ED1CE073E200C8D787 /* ProximaNova-Regular.otf */; };
+		E4BB99F31CE073E200C8D787 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99EE1CE073E200C8D787 /* ProximaNova-RegularItalic.otf */; };
+		E4BB99F41CE073E200C8D787 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4BB99EF1CE073E200C8D787 /* ProximaNova-Semibold.otf */; };
+		E4BB99F71CE0803A00C8D787 /* SecondDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99F61CE0803A00C8D787 /* SecondDataViewController.m */; };
+		E4BB99FC1CE088AA00C8D787 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB99FB1CE088AA00C8D787 /* BaseCollectionViewCell.m */; };
+		E4D00A5F1CE18C62000E08E8 /* SecondCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D00A5E1CE18C62000E08E8 /* SecondCollectionViewCell.m */; };
+		E4D00A621CE18D1E000E08E8 /* AdvertisementCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D00A611CE18D1E000E08E8 /* AdvertisementCollectionViewCell.m */; };
 		E4F9EBAC1CD7325C00C747EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBAB1CD7325C00C747EF /* main.m */; };
 		E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F9EBB61CD7325C00C747EF /* Assets.xcassets */; };
 		E4F9EBC51CD7325C00C747EF /* starTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9EBC41CD7325C00C747EF /* starTests.m */; };
@@ -38,6 +53,33 @@
 /* Begin PBXFileReference section */
 		63A9FD431C828FDA7B346BF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A1A9D2FA52D957AA2C3F1E7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44C64901CDB96C300E5A3A1 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		E44C64921CDB96C300E5A3A1 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		E44C64941CDB96C300E5A3A1 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		E44C64991CDB999D00E5A3A1 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAssert.h; sourceTree = "<group>"; };
+		E4BB99E01CE0492D00C8D787 /* allQQ.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = allQQ.plist; sourceTree = "<group>"; };
+		E4BB99E21CE05E3B00C8D787 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E4BB99E71CE06B9600C8D787 /* CustomNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationView.h; sourceTree = "<group>"; };
+		E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationView.m; sourceTree = "<group>"; };
+		E4BB99EB1CE073E200C8D787 /* BrownTT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrownTT-Regular.ttf"; sourceTree = "<group>"; };
+		E4BB99EC1CE073E200C8D787 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		E4BB99ED1CE073E200C8D787 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		E4BB99EE1CE073E200C8D787 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
+		E4BB99EF1CE073E200C8D787 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		E4BB99F51CE0803A00C8D787 /* SecondDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDataViewController.h; sourceTree = "<group>"; };
+		E4BB99F61CE0803A00C8D787 /* SecondDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDataViewController.m; sourceTree = "<group>"; };
+		E4BB99FA1CE088AA00C8D787 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		E4BB99FB1CE088AA00C8D787 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		E4D00A5D1CE18C62000E08E8 /* SecondCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewCell.h; sourceTree = "<group>"; };
+		E4D00A5E1CE18C62000E08E8 /* SecondCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewCell.m; sourceTree = "<group>"; };
+		E4D00A601CE18D1E000E08E8 /* AdvertisementCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementCollectionViewCell.h; sourceTree = "<group>"; };
+		E4D00A611CE18D1E000E08E8 /* AdvertisementCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementCollectionViewCell.m; sourceTree = "<group>"; };
 		E4F9EBA71CD7325C00C747EF /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F9EBAB1CD7325C00C747EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F9EBB61CD7325C00C747EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +144,88 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E44C648F1CDB96C300E5A3A1 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E44C64901CDB96C300E5A3A1 /* RDVTabBar.h */,
+				E44C64911CDB96C300E5A3A1 /* RDVTabBar.m */,
+				E44C64921CDB96C300E5A3A1 /* RDVTabBarController.h */,
+				E44C64931CDB96C300E5A3A1 /* RDVTabBarController.m */,
+				E44C64941CDB96C300E5A3A1 /* RDVTabBarItem.h */,
+				E44C64951CDB96C300E5A3A1 /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		E4BB99DD1CE0483300C8D787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99E21CE05E3B00C8D787 /* SecondViewController.h */,
+				E4BB99E31CE05E3B00C8D787 /* SecondViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E4BB99DE1CE0484000C8D787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4D00A5D1CE18C62000E08E8 /* SecondCollectionViewCell.h */,
+				E4D00A5E1CE18C62000E08E8 /* SecondCollectionViewCell.m */,
+				E4D00A601CE18D1E000E08E8 /* AdvertisementCollectionViewCell.h */,
+				E4D00A611CE18D1E000E08E8 /* AdvertisementCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E4BB99DF1CE0485000C8D787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99F51CE0803A00C8D787 /* SecondDataViewController.h */,
+				E4BB99F61CE0803A00C8D787 /* SecondDataViewController.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E4BB99E51CE06B1700C8D787 /* BaseFile */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99F81CE0886900C8D787 /* BaseCollectionViewCell */,
+				E4BB99E61CE06B5000C8D787 /* BaseNavigationView */,
+				E4F9EBEA1CD734DA00C747EF /* BaseController */,
+			);
+			name = BaseFile;
+			sourceTree = "<group>";
+		};
+		E4BB99E61CE06B5000C8D787 /* BaseNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99E71CE06B9600C8D787 /* CustomNavigationView.h */,
+				E4BB99E81CE06B9600C8D787 /* CustomNavigationView.m */,
+			);
+			name = BaseNavigationView;
+			sourceTree = "<group>";
+		};
+		E4BB99EA1CE0736400C8D787 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99EB1CE073E200C8D787 /* BrownTT-Regular.ttf */,
+				E4BB99EC1CE073E200C8D787 /* ProximaNova-Bold.otf */,
+				E4BB99ED1CE073E200C8D787 /* ProximaNova-Regular.otf */,
+				E4BB99EE1CE073E200C8D787 /* ProximaNova-RegularItalic.otf */,
+				E4BB99EF1CE073E200C8D787 /* ProximaNova-Semibold.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		E4BB99F81CE0886900C8D787 /* BaseCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E4BB99FA1CE088AA00C8D787 /* BaseCollectionViewCell.h */,
+				E4BB99FB1CE088AA00C8D787 /* BaseCollectionViewCell.m */,
+			);
+			name = BaseCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		E4F9EB9E1CD7325C00C747EF = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +260,8 @@
 		E4F9EBAA1CD7325C00C747EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4BB99EA1CE0736400C8D787 /* Font */,
+				E4BB99E01CE0492D00C8D787 /* allQQ.plist */,
 				E4F9EBBB1CD7325C00C747EF /* Info.plist */,
 				E4F9EBB61CD7325C00C747EF /* Assets.xcassets */,
 				E4F9EBAB1CD7325C00C747EF /* main.m */,
@@ -199,6 +325,9 @@
 		E4F9EBE21CD7342900C747EF /* tab2 */ = {
 			isa = PBXGroup;
 			children = (
+				E4BB99DF1CE0485000C8D787 /* Model */,
+				E4BB99DE1CE0484000C8D787 /* View */,
+				E4BB99DD1CE0483300C8D787 /* Controller */,
 			);
 			name = tab2;
 			sourceTree = "<group>";
@@ -216,7 +345,7 @@
 		E4F9EBE41CD7344C00C747EF /* helper */ = {
 			isa = PBXGroup;
 			children = (
-				E4F9EBEA1CD734DA00C747EF /* BaseController */,
+				E4BB99E51CE06B1700C8D787 /* BaseFile */,
 				E4F9EBE91CD734D800C747EF /* Singleton */,
 				E4F9EBE81CD734D600C747EF /* API */,
 				E4F9EBE71CD734D500C747EF /* DataBase */,
@@ -240,6 +369,9 @@
 		E4F9EBE61CD734D300C747EF /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				E44C64991CDB999D00E5A3A1 /* Macro.h */,
+				E44C649A1CDB9A1B00E5A3A1 /* PrefixHeader.pch */,
+				E44C649B1CDB9E5200E5A3A1 /* ImageAssert.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
@@ -277,8 +409,9 @@
 		E4F9EBEB1CD7351900C747EF /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E44C648F1CDB96C300E5A3A1 /* RDVTabBarController */,
 			);
-			name = Lib;
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		E4F9EBEC1CD7354700C747EF /* Model */ = {
@@ -410,7 +543,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BB99E11CE0492D00C8D787 /* allQQ.plist in Resources */,
+				E4BB99F21CE073E200C8D787 /* ProximaNova-Regular.otf in Resources */,
+				E4BB99F11CE073E200C8D787 /* ProximaNova-Bold.otf in Resources */,
+				E4BB99F31CE073E200C8D787 /* ProximaNova-RegularItalic.otf in Resources */,
 				E4F9EBB71CD7325C00C747EF /* Assets.xcassets in Resources */,
+				E4BB99F01CE073E200C8D787 /* BrownTT-Regular.ttf in Resources */,
+				E4BB99F41CE073E200C8D787 /* ProximaNova-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,11 +622,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D00A5F1CE18C62000E08E8 /* SecondCollectionViewCell.m in Sources */,
+				E4BB99E41CE05E3B00C8D787 /* SecondViewController.m in Sources */,
+				E4BB99FC1CE088AA00C8D787 /* BaseCollectionViewCell.m in Sources */,
 				E4F9EBAC1CD7325C00C747EF /* main.m in Sources */,
+				E44C64981CDB96C300E5A3A1 /* RDVTabBarItem.m in Sources */,
 				E4F9EBF11CD7358A00C747EF /* BaseViewController.m in Sources */,
+				E44C64971CDB96C300E5A3A1 /* RDVTabBarController.m in Sources */,
+				E4BB99E91CE06B9600C8D787 /* CustomNavigationView.m in Sources */,
+				E44C64961CDB96C300E5A3A1 /* RDVTabBar.m in Sources */,
+				E4BB99F71CE0803A00C8D787 /* SecondDataViewController.m in Sources */,
 				E4F9EBF71CD735FC00C747EF /* AppDelegateHelper.m in Sources */,
 				E4F9EBFA1CD7363500C747EF /* HomeViewController.m in Sources */,
 				E4F9EBF41CD735B000C747EF /* AppDelegate.m in Sources */,
+				E4D00A621CE18D1E000E08E8 /* AdvertisementCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +758,9 @@
 			baseConfigurationReference = F750750DC0A9515474AD1FDF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/song/Desktop/ACE/star/star/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsmode.star;
@@ -622,6 +773,9 @@
 			baseConfigurationReference = 63A9FD431C828FDA7B346BF4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/song/Desktop/ACE/star/star/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = star/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whatsmode.star;

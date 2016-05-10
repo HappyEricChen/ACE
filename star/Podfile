@@ -1,3 +1,6 @@
 
 
 pod 'JZNavigationExtension'
+pod 'YYModel'
+pod 'SDAutoLayout', '~> 1.53'
+pod 'SDCycleScrollView','~> 1.64'

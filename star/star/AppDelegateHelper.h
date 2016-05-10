@@ -29,4 +29,16 @@
  * return homeViewController instance
  */
 @property (strong, nonatomic) UIViewController* homeViewController;
+/**
+ * return secondViewController instance
+ */
+@property (strong, nonatomic) UIViewController* secondViewController;
+/**
+ * return thirdViewController instance
+ */
+@property (strong, nonatomic) UIViewController* thirdViewController;
+/**
+ * return fourViewController instance
+ */
+@property (strong, nonatomic) UIViewController* fourViewController;
 @end

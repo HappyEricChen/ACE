@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = AppDelegateHelperSingleton.homeViewController;
+    self.window.rootViewController = AppDelegateHelperSingleton.mainTabBarController;
     [self.window makeKeyAndVisible];
     
     return YES;

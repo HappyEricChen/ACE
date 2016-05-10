@@ -1,10 +1,24 @@
 PODS:
   - JZNavigationExtension (1.4.6)
+  - SDAutoLayout (1.53)
+  - SDCycleScrollView (1.64):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - YYModel (1.0.3)
 
 DEPENDENCIES:
   - JZNavigationExtension
+  - SDAutoLayout (~> 1.53)
+  - SDCycleScrollView (~> 1.64)
+  - YYModel
 
 SPEC CHECKSUMS:
   JZNavigationExtension: 9a7b041e49e74260db48c7b61417d5deb5f24f8c
+  SDAutoLayout: ea6e2ae9fbb438aa2feb0c4363dba9297e98638a
+  SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
 
 COCOAPODS: 0.39.0
